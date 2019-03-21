@@ -96,6 +96,9 @@ public class MainActivity extends AppCompatActivity
             Intent intent = new Intent(MainActivity.this, PizzaExtras.class);
             startActivity(intent);
 
+        } else if (id == R.id.nav_login) {
+            Intent intent = new Intent(MainActivity.this, Login.class);
+            startActivity(intent);
 
         } else if (id == R.id.nav_contact) {
             Intent intent = new Intent(MainActivity.this, ContactUs.class);
